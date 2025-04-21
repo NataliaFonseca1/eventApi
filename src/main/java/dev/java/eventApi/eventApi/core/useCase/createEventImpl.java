@@ -1,11 +1,11 @@
 package dev.java.eventApi.eventApi.core.useCase;
 
-import dev.java.eventApi.eventApi.core.entities.EventModel;
+import dev.java.eventApi.eventApi.core.entities.Event;
 
 public class createEventImpl implements  createEventUseCase{
 
     @Override
-    public EventModel execute(EventModel evento) {
+    public Event execute(Event evento) {
         return null;
     }
 }

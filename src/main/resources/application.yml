@@ -7,7 +7,7 @@ spring:
     name: eventClean
 
   datasource:
-    url: jdbc:postgresql://:localhost:5431/eventClean
+    url: jdbc:postgresql://localhost:5431/eventClean
     driver-class-name: org.postgresql.Driver
     username: postgres
     password: postgres
