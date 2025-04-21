@@ -1,0 +1,20 @@
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: eventClean
+
+  datasource:
+    url: jdbc:postgresql://:localhost:5431/eventClean
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+
+  jpa:
+    show-sql: true
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
