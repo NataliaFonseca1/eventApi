@@ -1,0 +1,2 @@
+
+ALTER TABLE Eventos ADD COLUMN img_url VARCHAR(255);

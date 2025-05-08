@@ -124,4 +124,6 @@ public class EventEntity {
         this.imgUrl = imgUrl;
         this.tipo = tipo;
     }
+
+    public EventEntity() {}
 }

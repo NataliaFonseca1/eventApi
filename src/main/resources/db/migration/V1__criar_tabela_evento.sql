@@ -8,6 +8,7 @@ organizador VARCHAR(255) NOT NULL,
 local_evento VARCHAR(255),
 data_inicio TIMESTAMP NOT NULL,
 data_fim TIMESTAMP NOT NULL,
-type VARCHAR(50) NOT NULL
+tipo VARCHAR(50) NOT NULL
 
 )
+
