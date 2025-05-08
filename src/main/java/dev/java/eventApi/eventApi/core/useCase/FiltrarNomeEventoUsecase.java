@@ -4,5 +4,5 @@ import dev.java.eventApi.eventApi.core.entities.Event;
 import dev.java.eventApi.eventApi.infracstruture.persistence.EventEntity;
 
 public interface FiltrarNomeEventoUsecase {
-    public EventEntity execute(String name);
+    public Event execute(String name);
 }

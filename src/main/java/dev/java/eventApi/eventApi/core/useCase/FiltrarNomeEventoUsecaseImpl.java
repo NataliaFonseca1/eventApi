@@ -13,7 +13,7 @@ public class FiltrarNomeEventoUsecaseImpl implements FiltrarNomeEventoUsecase {
     }
 
     @Override
-    public EventEntity execute(String name) {
+    public Event execute(String name) {
         return eventoGateway.filtrarPorNome(name)
                 .orElseThrow(() -> new RuntimeException("Evento com nome " + name + " não encontrado."));
     }

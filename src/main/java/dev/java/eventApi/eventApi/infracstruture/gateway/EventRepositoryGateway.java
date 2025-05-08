@@ -38,12 +38,12 @@ public class EventRepositoryGateway implements EventGateway {
     }
 
     @Override
-    public Optional<EventEntity> filtrarPorIdentificador(String identificador) {
+    public Optional<Event> filtrarPorIdentificador(String identificador) {
         return eventRepository.findByIdentificador(identificador);
     }
 
     @Override
-    public Optional<EventEntity> filtrarPorNome(String name) {
+    public Optional<Event> filtrarPorNome(String name) {
         return eventRepository.findByNameIgnoreCase(name);
     }
 }

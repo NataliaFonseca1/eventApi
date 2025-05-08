@@ -10,7 +10,7 @@ public interface  EventGateway {
 
     Event criarEvento(Event event);
     List<Event> buscarEvento();
-    Optional<EventEntity> filtrarPorIdentificador(String identificador);
-    Optional<EventEntity> filtrarPorNome(String name);
+    Optional<Event> filtrarPorIdentificador(String identificador);
+    Optional<Event> filtrarPorNome(String name);
     boolean existePorIdentificador(String identificador);
 }
